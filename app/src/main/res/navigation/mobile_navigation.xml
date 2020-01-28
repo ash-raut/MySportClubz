@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_dashboard">
+
+    <fragment
+        android:id="@+id/nav_dashboard"
+        android:name="com.esparse_matrix.mysportclubz.ui.Dashboard.DashboardFragment"
+        android:label="@string/menu_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/nav_users"
+        android:name="com.esparse_matrix.mysportclubz.ui.Users.UsersFragment"
+        android:label="@string/menu_users"
+        tools:layout="@layout/fragment_users" />
+
+    <fragment
+        android:id="@+id/nav_fees_structure"
+        android:name="com.esparse_matrix.mysportclubz.ui.FeesStructure.FeesStructureFragment"
+        android:label="@string/menu_fees_structure"
+        tools:layout="@layout/fragment_feesstructure" />
+
+    <fragment
+        android:id="@+id/nav_payment"
+        android:name="com.esparse_matrix.mysportclubz.ui.Payment.PaymentFragment"
+        android:label="@string/menu_payment"
+        tools:layout="@layout/fragment_payment" />
+
+    <fragment
+        android:id="@+id/nav_revenue"
+        android:name="com.esparse_matrix.mysportclubz.ui.Revenue.RevenueFragment"
+        android:label="@string/menu_revenue"
+        tools:layout="@layout/fragment_revenue" />
+
+    <fragment
+        android:id="@+id/nav_expenses"
+        android:name="com.esparse_matrix.mysportclubz.ui.Expenses.ExpensesFragment"
+        android:label="@string/menu_expenses"
+        tools:layout="@layout/fragment_expenses" />
+    <fragment
+        android:id="@+id/nav_events"
+        android:name="com.esparse_matrix.mysportclubz.ui.EventsFragment"
+        android:label="@string/menu_events"
+        tools:layout="@layout/fragment_events"/>
+    <fragment
+        android:id="@+id/nav_enquiries"
+        android:name="com.esparse_matrix.mysportclubz.ui.EnquiriesFragment"
+        android:label="@string/menu_enquiries"
+        tools:layout="@layout/fragment_enquiries"/>
+</navigation>
